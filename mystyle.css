@@ -1,0 +1,56 @@
+body{
+    background-color: hsl(0, 0%, 12%);
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    display: flex;
+    color: white;
+    padding-top: 30px;
+    font-family: "Inter", serif;
+    height: 900px;
+}
+
+.card{
+    background-color: hsl(0, 0%, 8%);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    height:550px;
+   
+}
+
+.profile-img{
+    border-radius: 50%;
+    margin-bottom: 15px;
+   object-fit: cover;
+}
+.name{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.location{
+    font-size: 15px;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+}
+.bio{
+    font-size: 13px;
+    margin-bottom:10px ;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+   
+}
+.btn{
+    background-color: hsl(0, 0%, 20%);
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+}
+.btn.github{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
